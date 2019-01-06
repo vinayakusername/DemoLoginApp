@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="279dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="19dp"
+        android:text="Welcome to Register Page"
+        android:textColor="@android:color/black"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/edtUserEmail"
+        android:layout_width="344dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/edtUserPhone"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="92dp"
+        android:ems="10"
+        android:hint="EmailID"
+        android:inputType="textPersonName"
+        android:layout_alignLeft="@+id/edtUserPhone"
+        android:layout_marginLeft="2dp"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/edtUserPhone"
+        android:layout_width="341dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="166dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="97dp"
+        android:text="Register"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="262dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginBottom="30dp"
+        android:text="Already Sign In?Login"
+        android:textColor="@android:color/black"
+        android:textSize="23sp"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/edtUserPassword"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/edtCPassword"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="171dp"
+        android:ems="10"
+        android:hint="Conform Password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+</RelativeLayout>
